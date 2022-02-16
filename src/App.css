@@ -1,0 +1,31 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.contador{
+  height:20rem;
+  width:40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.titulo{
+  margin-bottom: 3vh;
+}
+.botoes{
+  width:40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+h2{
+  margin-top: 5vh;
+  color:blue;
+  border: solid black;
+}
